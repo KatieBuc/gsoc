@@ -46,7 +46,7 @@ body {
     display: inline-block;
     width: 100%;
     border: 0px solid lightgray;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 20px;
 }
 
 .project-content button {
