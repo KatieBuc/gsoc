@@ -8,11 +8,9 @@ body {
 }
 
 .column-1 {
-    float: left;
     width: 30%;
 }
 .column-2 {
-    float: left;
     width: 69%;
 }
 
