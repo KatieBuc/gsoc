@@ -8,7 +8,8 @@ body {
 }
 
 .column {
-    flex: 50%;
+    float: left;
+    width: 50%;
 }
 
 .about {
@@ -28,7 +29,6 @@ body {
 
 .project {
     margin: 70px;
-    display: flex;
 }
 
 .project-content {
