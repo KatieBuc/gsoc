@@ -8,16 +8,8 @@ body {
 }
 
 .column {
-    float: left;
-  }
-  
-  .left {
-    width: 25%;
-  }
-  
-  .right {
-    width: 75%;
-  }
+    flex: 50%;
+}
 
 .about {
     background-color: black;
@@ -36,6 +28,7 @@ body {
 
 .project {
     margin: 70px;
+    display: flex;
 }
 
 .project-content {
