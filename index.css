@@ -7,6 +7,18 @@ body {
     background-size: 100%;
 }
 
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+
 .about {
     background-color: black;
     color: white;
@@ -27,7 +39,6 @@ body {
 }
 
 .project-content {
-    width: 70%;
     display: inline-block;
     text-align: left;
     vertical-align: top;
@@ -35,7 +46,6 @@ body {
 }
 
 .project-thumbnail {
-    width: 30%;
     display: inline-block;
     height: 256px;
     border: 2px solid lightgray;
