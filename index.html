@@ -42,7 +42,7 @@
                     <a href="https://github.com/sktime/sktime/pull/3158/files"><button>Pull Request</button></a> 
                     <a href="https://github.com/sktime/sktime/issues/2813"><button>Issue</button></a>
                     <h4>References</h4>
-                    <p>See the <a href="https://arxiv.org/abs/1902.10459">paper</a> and reference <a href="https://github.com/micheleallegra/Hidalgo/tree/master/python">code</a>, orginially implemented in MATLAB/C/C++/python. Refactor (and re-write) was necessary due to the source code not being packagable (while also having undesirable dependencies).</p>
+                    <p>See the <a href="https://arxiv.org/abs/1902.10459">paper</a> and reference <a href="https://github.com/micheleallegra/Hidalgo/tree/master/python">code</a>, orginially implemented in MATLAB/C/C++/python. Refactor (and re-write) was necessary due to the source code not being packagable (while also having dependencies).</p>
                 </div>
             </div>
         </div>
@@ -79,17 +79,31 @@
         <div class="project">
             <div class="column-1">
                 <!-- Image-->
-                <img class="project-thumbnail" src="imgs/dimensionality.jpg">
+                <img class="project-thumbnail" src="imgs/dobin.png">
             </div>
             <div class="column-2">
                 <!-- Project Header and Description -->
                 <div class="project-content">
                     <h3>DOBIN: Distance based Outlier BasIs using Neighbors</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                    <a href="https://example.com"><button>Pull Request</button></a> 
-                    <a href="https://example.com"><button>Issue</button></a>
+                    <p>Outlier detection is used in diverse applications such as the identification of extreme weather
+                        events, stock market crashes and fraudulent transactions. A common challenge in many domains
+                        is that a data point may be an outlier in the original high dimensional space, but not an outlier
+                        in the low dimensional subspace created by a dimension reduction method.
+                        It is common to use Principal Component Analysis (PCA) for dimension reduction when detecting outliers,
+                        however PCA finds a set of basis vectors that explains the variance of the data,
+                        such that the highest variance is in the direction of the first vector, and so on. As such,
+                        outliers can be lost in this pre-procesing step.
+                        DOBIN constructs a set of basis vectors specifically tailored for unsupervised outlier detection to be used as a dimension
+                        reduction tool for outlier detection tasks.
+
+
+
+
+                    </p>
+                    <a href="https://github.com/sktime/sktime/pull/3373/files"><button>Pull Request</button></a> 
+                    <a href="https://github.com/sktime/sktime/issues/3371"><button>Issue</button></a>
                     <h4>References</h4>
-                    <p>See the <a href="https://example.com">paper</a> and reference <a href="https://example.com">code</a>, orginially implemented in R.</p>
+                    <p>See the <a href="https://robjhyndman.com/papers/dobin.pdf">paper</a> and reference <a href="https://github.com/sevvandi/dobin">code</a>, orginially implemented in R.</p>
                 </div>
             </div>
         </div>
