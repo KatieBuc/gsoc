@@ -44,9 +44,9 @@ body {
 
 .project-thumbnail {
     display: inline-block;
-    width: 90%;
+    width: 85%;
     border: 0px solid lightgray;
-    margin: 20px 0px 0px 20px;
+    margin: 0px 0px 0px 20px;
 }
 
 .project-content button {
