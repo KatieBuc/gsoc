@@ -30,11 +30,19 @@
                 <!-- Project Header and Description -->
                 <div class="project-content">
                     <h3>HIDALGO: Heterogeneous Intrinsic Dimensionality ALGOrithm</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                    <a href="https://example.com"><button>Pull Request</button></a> 
-                    <a href="https://example.com"><button>Issue</button></a>
+                    <p> A fundamental paradigm in machine learning is that a small number of variables is often sufficient to describe high-dimensional data, where
+                        Intrinsic dimensionality (ID) is the minimum number of variables required. In most approaches for dimensionality reduction and manifold learning,
+                        the ID is assumed to be constant in the dataset.
+                        However, this assumption is often violated in the case of real-world data.
+                        Heterogeneous ID allows for data to be represented by a mixture model on the support on the union of K manifolds with varying dimensions.
+                        Points are then assigned to manifold k with corresponding dimensionality.
+                        Hidalgo extends this concept to a Bayesian framework which allows the identification (by Gibbs sampling) of regions in the data landscape where
+                        the ID can be considered constant.
+                        As such, Hidalgo offers robust method for unsupervised segmentation of high-dimensional data.</p>
+                    <a href="https://github.com/sktime/sktime/pull/3158/files"><button>Pull Request</button></a> 
+                    <a href="https://github.com/sktime/sktime/issues/2813"><button>Issue</button></a>
                     <h4>References</h4>
-                    <p>See the <a href="https://example.com">paper</a> and reference <a href="https://example.com">code</a>, orginially implemented in R.</p>
+                    <p>See the <a href="https://arxiv.org/abs/1902.10459">paper</a> and reference <a href="https://github.com/micheleallegra/Hidalgo/tree/master/python">code</a>, orginially implemented in MATLAB/C/C++/python. Refactor (and re-write) was necessary due to the source code not being packagable (while also having undesirable dependencies).</p>
                 </div>
             </div>
         </div>
